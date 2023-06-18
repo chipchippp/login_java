@@ -13,7 +13,7 @@ public class Main1 extends Application {
     public void start(Stage primaryStage) throws Exception {
         mainStage = primaryStage;
         Parent root = FXMLLoader.load(getClass().getResource("/views/login.fxml"));
-        primaryStage.setScene(new Scene(root, 985, 490));
+        primaryStage.setScene(new Scene(root, 1135, 480));
         primaryStage.setTitle("T2210A JavaFX Demo");
         primaryStage.show();
     }

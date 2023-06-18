@@ -7,21 +7,20 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="489.0" prefWidth="984.0" style="-fx-background-color: #fff;"
-            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Login">
+<AnchorPane id="AnchorPane" prefHeight="496.0" prefWidth="1141.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Login">
     <children>
         <AnchorPane prefHeight="500.0" prefWidth="478.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
             <children>
-                <ImageView fitHeight="515.0" fitWidth="488.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView fitHeight="524.0" fitWidth="758.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@../img/img.png" />
+                        <Image url="@../img/img_4.png" />
                     </image>
                 </ImageView>
             </children>
         </AnchorPane>
-        <Pane layoutX="617.0" layoutY="122.0" prefHeight="302.0" prefWidth="292.0" AnchorPane.bottomAnchor="65.0" AnchorPane.topAnchor="122.0">
+        <Pane layoutX="788.0" layoutY="133.0" prefHeight="302.0" prefWidth="292.0" AnchorPane.bottomAnchor="54.0" AnchorPane.topAnchor="133.0">
             <children>
-                <Button fx:id="btnSignin" layoutX="4.0" layoutY="232.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="54.0" prefWidth="275.0" style="-fx-background-radius: 100; -fx-background-color: FF9933;" stylesheets="" text="Sign in" textFill="WHITE" />
+                <Button fx:id="btnSignin" layoutX="4.0" layoutY="232.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="54.0" prefWidth="279.0" style="-fx-background-radius: 100; -fx-background-color: #8470FF;" stylesheets="" text="Sign in" textFill="WHITE" />
                 <Label fx:id="lblError" alignment="CENTER" layoutX="4.0" layoutY="182.0" prefHeight="23.0" prefWidth="275.0" textFill="#ff6354">
                     <font>
                         <Font name="Segoe UI" size="16.0" />
@@ -49,7 +48,7 @@
             </HBox>
             </children>
         </Pane>
-        <Label layoutX="695.0" layoutY="73.0" prefHeight="43.0" prefWidth="137.0" text="User Login">
+        <Label layoutX="866.0" layoutY="72.0" prefHeight="43.0" prefWidth="137.0" text="User Login">
             <font>
                 <Font size="25.0" />
             </font></Label>

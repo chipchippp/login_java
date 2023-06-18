@@ -1,0 +1,9 @@
+.radius{
+-fx-background-radius: 100px;
+}
+.transparent-background{
+-fx-background-color: rgba(0,0,0,0);
+}
+.drank{
+-fx-background-color: #46474;
+}

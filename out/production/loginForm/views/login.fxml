@@ -30,7 +30,7 @@
                <children>
                   <ImageView fitHeight="23.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
                       <image>
-                          <Image url="@../img/user-icon2.png" />
+                          <Image url="@../img/user.png" />
                       </image>
                   </ImageView>
                       <TextField fx:id="txtUser" prefHeight="46.0" prefWidth="212.0" promptText="Username" style="-fx-background-color: rgba(0,0,0,0);" />
@@ -40,7 +40,7 @@
                <children>
                   <ImageView fitHeight="29.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../img/pass1.jpg" />
+                        <Image url="@../img/padlock.png" />
                      </image>
                   </ImageView>
                       <PasswordField fx:id="txtPass" prefHeight="46.0" prefWidth="216.0" promptText="Password" style="-fx-background-color: rgba(0,0,0,0);" stylesheets="" />
